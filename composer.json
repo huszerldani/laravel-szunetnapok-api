@@ -17,6 +17,9 @@
 		}
 	},
 	"extra": {
+		"branch-alias": {
+		    "dev-master": "3.5-dev"
+		},
 		"laravel": {
 			"providers": [
 				"Pinasen\\SzunetNapok\\SzunetNapokServiceProvider"
