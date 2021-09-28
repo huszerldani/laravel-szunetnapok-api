@@ -1,0 +1,26 @@
+{
+    "name": "huszerldani/laravel-szunetnapok-api",
+    "description": "Laravel package a hivatalos magyar munkaszüneti napok lekéréséhez",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "huszerldani",
+            "email": "huszerldani@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+	"autoload": {
+		"psr-4": {
+			"Pinasen\\SzunetNapok\\": "src/"
+		}
+	},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Pinasen\\SzunetNapok\\SzunetNapokServiceProvider"
+			]
+		}
+	}
+}
