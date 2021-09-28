@@ -1,30 +1,35 @@
 {
-    "name": "huszerldani/laravel-szunetnapok-api",
-    "description": "Laravel package a hivatalos magyar munkaszüneti napok lekéréséhez",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "huszerldani",
-            "email": "huszerldani@gmail.com"
-        }
-    ],
-    "minimum-stability": "dev",
-	"prefer-stable": true,
-    "require": {},
-	"autoload": {
-		"psr-4": {
-			"Pinasen\\SzunetNapok\\": "src/"
-		}
-	},
-	"extra": {
-		"branch-alias": {
-		    "dev-master": "3.5-dev"
-		},
-		"laravel": {
-			"providers": [
-				"Pinasen\\SzunetNapok\\SzunetNapokServiceProvider"
-			]
-		}
-	}
+   "name":"huszerldani/laravel-szunetnapok-api",
+   "description":"Laravel package a hivatalos magyar munkaszüneti napok lekéréséhez",
+   "type":"library",
+   "license":"MIT",
+   "authors":[
+      {
+         "name":"huszerldani",
+         "email":"huszerldani@gmail.com"
+      }
+   ],
+   "config":{
+      "preferred-install":"master"
+   },
+   "minimum-stability":"dev",
+   "prefer-stable":true,
+   "require":{
+      
+   },
+   "autoload":{
+      "psr-4":{
+         "Pinasen\\SzunetNapok\\":"src/"
+      }
+   },
+   "extra":{
+      "branch-alias":{
+         "dev-master":"3.5-dev"
+      },
+      "laravel":{
+         "providers":[
+            "Pinasen\\SzunetNapok\\SzunetNapokServiceProvider"
+         ]
+      }
+   }
 }
