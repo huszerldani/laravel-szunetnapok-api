@@ -6,7 +6,7 @@ use Illuminate\Support\ServiceProvider;
 
 class SzunetNapokServiceProvider extends ServiceProvider {
 	public function boot() {
-		//dd("ennyi");
+
 	}
 
 	public function register() {
