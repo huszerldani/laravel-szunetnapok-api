@@ -1,5 +1,3 @@
-## Fejlesztés alatt
-
 # Laravel Munkaszüneti napok API
 
 Egyszerű munkaszüneti napok lekérdezése bármelyik évre, kiegészítve a plusz munkanapokkal.
